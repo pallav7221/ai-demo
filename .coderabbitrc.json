@@ -1,0 +1,46 @@
+{
+  "rules": {
+    "no-console-log": {
+      "level": "error",
+      "description": "Avoid using console.log in production code."
+    },
+    "require-jsdoc": {
+      "level": "warn",
+      "description": "Functions should have JSDoc comments for better understanding."
+    },
+    "no-hardcoded-strings": {
+      "level": "warn",
+      "description": "Avoid hardcoded strings. Use constants or localization files."
+    },
+    "prefer-async-await": {
+      "level": "error",
+      "description": "Use async/await instead of promise chaining for readability."
+    },
+    "component-name-style": {
+      "level": "error",
+      "description": "React component names should be in PascalCase."
+    },
+    "no-inline-styles": {
+      "level": "warn",
+      "description": "Avoid inline styles; prefer styled components or CSS modules."
+    },
+    "max-lines-per-function": {
+      "level": "warn",
+      "description": "Functions should not exceed 50 lines.",
+      "options": {
+        "max": 50
+      }
+    },
+    "no-dead-code": {
+      "level": "error",
+      "description": "Remove unused variables, imports, or functions."
+    },
+    "filename-casing": {
+      "level": "error",
+      "description": "All filenames should be in kebab-case.",
+      "options": {
+        "style": "kebab-case"
+      }
+    }
+  }
+}
