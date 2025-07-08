@@ -28,7 +28,7 @@
       "level": "warn",
       "description": "Functions should not exceed 50 lines.",
       "options": {
-        "max": 50
+        "max": 10
       }
     },
     "no-dead-code": {
